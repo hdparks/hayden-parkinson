@@ -7,5 +7,10 @@ export default defineNuxtConfig({
       autoprefixer: {},
     }
   },
-  baseUrl:"/haydenparkinson/"
+  baseUrl:"/haydenparkinson/",
+  prerender: {
+    routes: [
+      "/haydenparkinson/"
+    ]
+  }
 })

@@ -4,6 +4,7 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
+    "deploy": "gh-pages --dotfiles --dist dist",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },

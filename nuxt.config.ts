@@ -7,6 +7,5 @@ export default defineNuxtConfig({
       autoprefixer: {},
     }
   },
-  ssr:false,
   baseUrl:"/haydenparkinson/"
 })

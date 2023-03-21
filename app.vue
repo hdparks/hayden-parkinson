@@ -13,6 +13,9 @@
         <ContentDoc :path="article._path" />
       </CardRenderer>
     </ContentList>
+    <CardRenderer>
+      <a href="#">Test!</a>
+    </CardRenderer>
   </div>
 </template>
 

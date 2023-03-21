@@ -11,9 +11,4 @@ export default defineNuxtConfig({
   app: {
     baseURL:"/haydenparkinson/"
   },
-  prerender: {
-    routes: [
-      "/haydenparkinson/"
-    ]
-  }
 })

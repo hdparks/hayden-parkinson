@@ -7,5 +7,8 @@ export default defineNuxtConfig({
       tailwindcss: {},
       autoprefixer: {},
     }
+  },
+  app: {
+    baseURL:"/haydenparkinson/"
   }
 })

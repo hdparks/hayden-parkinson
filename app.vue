@@ -2,10 +2,10 @@
   <div
     class="bg-white dark:bg-slate-800 flex flex-col justify-center justify-items-center w-screen h-screen"
   >
-    <CardRenderer>
+    <CardRenderer class="relative">
       <img
         src="~/assets/images/profile.jpg"
-        class="rounded-full aspect-square"
+        class="rounded-full aspect-square absolute -top-3 -left-3"
       />
       <div class="flex flex-col justify-content-center">
         <h1 class="text-3xl">Hayden Parkinson</h1>
@@ -21,9 +21,6 @@
         <ContentDoc :path="article._path" />
       </CardRenderer>
     </ContentList>
-    <CardRenderer>
-      <NuxtLink href="#">Test!</NuxtLink>
-    </CardRenderer>
   </div>
 </template>
 

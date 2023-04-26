@@ -1,1 +1,1 @@
-declare module '@heroicons/vue';
+declare module "@heroicons/vue";
